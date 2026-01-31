@@ -1,0 +1,41 @@
+name: uoc-vscode
+channels:
+  - conda-forge
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  # Jupyter
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  
+  # Python essentials
+  - python>=3.8 # gym requires at least Python 3.8
+  - pip
+  
+  # Data manipulation and analysis
+  - numpy
+  - pandas
+  
+  # Machine Learning
+  - scikit-learn
+  - scikit-surprise
+  - mlxtend
+  
+  # Deep Learning
+  - tensorflow
+  - keras
+  
+  # Visualization
+  - matplotlib
+  - seaborn
+  
+  # Reinforcement Learning
+  - gym
+  - pygame
+  
+  # Additional packages via pip
+#   - pip:
+#     - scikit-surprise
